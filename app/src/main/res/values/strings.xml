@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cocktails</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">Discover a world of exquisite flavors with our Cocktails App. \nExplore a diverse collection of expertly crafted cocktail recipes, perfect for every occasion. \n
+                Whether you\'re a mixology enthusiast or a casual drinker, our app provides step-by-step instructions, ingredients, and tips to elevate your cocktails.\n
+                Cheers to unforgettable moments and delightful sips!</string>
+    <string name="title">COCKTAILS</string>
+    <string name="question">Maybe some drinks?</string>
+    <string name="block1">Popular</string>
+    <string name="categories">Categories</string>
+    <string name="back_button">Back button</string>
+    <string name="category_ex">Category:Wine</string>
+    <string name="alcoholic_type">Alcoholic: Alcoholic</string>
+    <string name="float_button">float button</string>
+    <string name="instruction_title">Instruction:</string>
+    <string name="ingredients">Ingredients:</string>
+</resources>

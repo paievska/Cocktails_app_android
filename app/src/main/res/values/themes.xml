@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Cocktails" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#FBA15B</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
