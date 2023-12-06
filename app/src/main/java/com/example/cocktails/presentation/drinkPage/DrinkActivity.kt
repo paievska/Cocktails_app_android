@@ -1,4 +1,4 @@
-package com.example.cocktails.presentation.activities
+package com.example.cocktails.presentation.drinkPage
 
 import android.os.Bundle
 import android.view.View
@@ -8,9 +8,8 @@ import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
 import com.example.cocktails.R
 import com.example.cocktails.databinding.ActivityDrinkBinding
-import com.example.cocktails.model.DrinkActivityViewModel
-import com.example.cocktails.pojo.Drink
-import com.example.cocktails.presentation.fragments.FirstFragment
+import com.example.cocktails.data.remote.model.Drink
+import com.example.cocktails.presentation.homePage.FirstFragment
 
 class DrinkActivity : AppCompatActivity() {
     private lateinit var drinkId: String

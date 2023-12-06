@@ -1,4 +1,4 @@
-package com.example.cocktails.presentation.fragments
+package com.example.cocktails.presentation.homePage
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,12 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.example.cocktails.adapters.PopularDrinkAdapter
 import com.example.cocktails.databinding.FragmentFirstBinding
-import com.example.cocktails.model.FirstFragmentViewModel
-import com.example.cocktails.pojo.Drink
-import com.example.cocktails.pojo.DrinksByCategory
-import com.example.cocktails.presentation.activities.DrinkActivity
+import com.example.cocktails.data.remote.model.Drink
+import com.example.cocktails.data.remote.model.DrinksByCategory
+import com.example.cocktails.presentation.drinkPage.DrinkActivity
 
 class FirstFragment : Fragment() {
     private lateinit var binding: FragmentFirstBinding

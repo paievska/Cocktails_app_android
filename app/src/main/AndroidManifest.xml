@@ -15,19 +15,19 @@
         android:theme="@style/Theme.Cocktails"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".presentation.activities.DrinkActivity"
+            android:name=".presentation.drinkPage.DrinkActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.fragments.FirstFragment"
+            android:name=".presentation.homePage.FirstFragment"
             android:exported="false" />
         <activity
-            android:name=".presentation.fragments.SecondFragment"
+            android:name=".presentation.infoPage.SecondFragment"
             android:exported="false" />
         <activity
             android:name=".presentation.fragments.ThirdFragment"
             android:exported="false" />
         <activity
-            android:name=".presentation.activities.MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

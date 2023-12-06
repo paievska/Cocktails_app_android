@@ -1,4 +1,4 @@
-package com.example.cocktails.pojo
+package com.example.cocktails.data.remote.model
 
 
 data class Drink(

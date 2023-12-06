@@ -1,11 +1,11 @@
-package com.example.cocktails.adapters
+package com.example.cocktails.presentation.homePage
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.cocktails.databinding.PopularItemsBinding
-import com.example.cocktails.pojo.DrinksByCategory
+import com.example.cocktails.data.remote.model.DrinksByCategory
 
 class PopularDrinkAdapter : RecyclerView.Adapter<PopularDrinkAdapter.PopularDrinkViewHolder>() {
     lateinit var onItemClick: ((DrinksByCategory) -> Unit)
